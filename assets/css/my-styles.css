@@ -13,7 +13,8 @@
 
 .timeblock .time {
     background-color: #fff;
-    border-top: 3px solid #7c7c7c;
+    border-top: 3px solid #c7c7c7;
+    border-right: 3px solid #8a8a8a;
     padding: 5px 5px 0 0;
     text-align: end;
     height: 100%;
@@ -21,14 +22,17 @@
 }
 
 .timeblock .text-box {
-    background-color: #616161;
+    background-color: #cecece;
     height: 100%;
     width: 80%;
 }
 
 .timeblock .icon-box {
     background-color: #3db8d6;
+    border-left: 3px solid #107791;
     border-radius: 0 25% 25px 0;
-    height: 100%;
+    height: 100px;
+    padding: 45px;
+    text-align: center;
     width: 10%;
 }
