@@ -1,12 +1,14 @@
 var currentDayEl = document.querySelector("#currentDay");
 
-var now = moment().format("MMMM Do YYYY");
+var nowDate = moment().format("MMMM Do YYYY");
+var nowTime = moment().format("hh:mm:ss A");
 
-console.log(now);
+console.log(nowDate);
+console.log(nowTime);
 
 var setCurrentDay = function () {
-    var setDate = currentDayEl.innerText = now;
-    return setDate;
+  var setDate = (currentDayEl.innerText = nowDate);
+  return setDate;
 };
 
 setCurrentDay();
