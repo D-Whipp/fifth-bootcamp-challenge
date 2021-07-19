@@ -65,6 +65,7 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  width: 10%;
 }
 
 .saveBtn i:hover {
@@ -72,7 +73,10 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+/* !!!!!!!!!!!!!!! */
 /* MY STYLES  */
+/* !!!!!!!!!!!!!!! */
+
 .container {
   display: flex;
   flex-direction: column;
@@ -102,18 +106,7 @@ textarea {
   width: 80%;
 }
 
-.timeblock .icon-box {
-  background-color: #3db8d6;
-  border-left: 3px solid #107791;
-  border-radius: 0 25% 25px 0;
-  color: #fff;
-  height: 100px;
-  padding: 45px;
-  text-align: center;
-  width: 10%;
-}
-
-.timeblock .icon-box:hover {
+.saveBtn:hover {
   background-color: #3d59d6;
   color: #000;
   transition: all 0.5s ease-in-out;
