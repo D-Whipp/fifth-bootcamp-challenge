@@ -7,9 +7,13 @@ var compareTime = function () {
 
   // loop through timeblock elements
   $(".timeblock").each(function () {
-    console.log(parseInt($(this).attr("id").split("-")[1]));
+    var timeBlocks = parseInt($(this).attr("id").split("-")[1]);
+    console.log(timeBlocks);
+    //   check if the time is in the past
+    if (timeBlocks < nowTime) {
+      $(this).addClass("past");
+    }
   });
-  console.log("I DID IT!!!!!!!!!!!!!!!!!!!");
 };
 
 compareTime();
