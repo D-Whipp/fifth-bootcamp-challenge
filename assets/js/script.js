@@ -2,8 +2,8 @@ var nowDate = moment().format("MMMM Do YYYY");
 $("#currentDay").html(nowDate);
 
 var compareTime = function () {
-  var nowTime = moment().format("HH");
-  console.log(nowTime);
+  var nowTime = moment().hour();
+  console.log(typeof nowTime);
 
   // loop through timeblock elements
   $(".timeblock").each(function () {
