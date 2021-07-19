@@ -1,5 +1,8 @@
+var textboxEl = document.querySelector("#text");
+
 var nowDate = moment().format("MMMM Do YYYY");
 $("#currentDay").html(nowDate);
+
 
 var compareTime = function () {
   var nowTime = +moment().format("HH");
@@ -11,7 +14,7 @@ var compareTime = function () {
     console.log(timeBlocks);
     //   check if the time is in the past
     if (timeBlocks < nowTime) {
-      $(this).addClass("past");
+        $(textboxEl).addClass("past");
     }
   });
 };
