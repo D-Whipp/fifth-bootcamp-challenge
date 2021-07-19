@@ -1,38 +1,56 @@
+textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+  }
+
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .timeblock {
-    display: flex;
-    height: 100px;
-    width: 1000px;
-    margin: 1px 1px;
+  display: flex;
+  height: 100px;
+  width: 1000px;
+  margin: 1px 1px;
 }
 
 .timeblock .time {
-    background-color: #fff;
-    border-top: 3px solid #c7c7c7;
-    border-right: 3px solid #8a8a8a;
-    padding: 5px 5px 0 0;
-    text-align: end;
-    height: 100%;
-    width: 10%;
+  background-color: #fff;
+  border-top: 3px solid #c7c7c7;
+  border-right: 3px solid #8a8a8a;
+  padding: 5px 5px 0 0;
+  text-align: end;
+  height: 100%;
+  width: 10%;
 }
 
 .timeblock .text-box {
-    background-color: #cecece;
-    height: 100%;
-    width: 80%;
+  background-color: #cecece;
+  height: 100%;
+  width: 80%;
 }
 
 .timeblock .icon-box {
-    background-color: #3db8d6;
-    border-left: 3px solid #107791;
-    border-radius: 0 25% 25px 0;
-    height: 100px;
-    padding: 45px;
-    text-align: center;
-    width: 10%;
+  background-color: #3db8d6;
+  border-left: 3px solid #107791;
+  border-radius: 0 25% 25px 0;
+  color: #fff;
+  height: 100px;
+  padding: 45px;
+  text-align: center;
+  width: 10%;
+}
+
+.timeblock .icon-box:hover {
+    background-color: #3d59d6;
+    transition: all .5s ease-in-out;
+
 }
