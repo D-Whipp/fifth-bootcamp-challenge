@@ -34,8 +34,4 @@ var compareTime = function () {
   });
 };
 
-// var auditTime = function (eachBlock) {
-//     var a = eachBlock;
-// };
-
 compareTime();
